@@ -1,0 +1,71 @@
+body{
+	position: absolute;
+	background-image:url('background.jpg');
+	
+	background-color: black;
+    background-size: 1400px 750px;
+	
+}
+
+
+
+.play{
+    position:relative;
+    margin-top:87px;
+   
+
+}
+
+.list{
+	
+}
+
+.bottuns{
+	margin-left:200px;
+
+}
+
+
+#randoms{
+  position:relative;
+
+  margin-left:400px;
+  margin-bottom: 100px
+
+}
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-weight:bold;
+    font-family:sans-serif;
+}
+
+h4{
+	font-family: sans-serif;
+}
+
+ul{
+    position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	list-style-type:none;
+	list-style-image: url('music_note.png');
+}
